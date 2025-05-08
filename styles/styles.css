@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .container1{
@@ -25,7 +28,6 @@ body {
 }
 .caja1 p {
     font-size: 39px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #333;
     margin-bottom: 200px
@@ -139,7 +141,6 @@ footer{
     background: linear-gradient(to right, #f57c00,#fca652);
     color:white;
     padding: 50px 0px 0px 0px;
-    font-family: sans-serif;
 }
 .footer-container {
     display: flex;
@@ -157,7 +158,6 @@ footer{
 .footer-seccion h2{
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: bold;
 }
 .footer-seccion ul {
     list-style: none;
