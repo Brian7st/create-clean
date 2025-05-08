@@ -45,11 +45,11 @@ body {
 
 .container2 {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     padding: 30px 25px;
-    gap: 300px;
+    gap: 260px;
 }
 .container2 img {
     max-width: 100%;
@@ -63,7 +63,7 @@ body {
     margin-bottom:20px ;
 }
 .caja2 p {
-    width: 590px;
+    width: 500px;
     margin-bottom: 40px;
     font-size: 17px;
     line-height: 1.6;
@@ -71,16 +71,17 @@ body {
 
 .container3 {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     padding: 30px 25px;
-    gap: 300px;
+    gap: 400px;
 }
 .container3 img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-left: 50px;
 }
 
 .caja3 h2{
@@ -90,7 +91,7 @@ body {
     margin-bottom:20px ;
 }
 .caja3 p {
-    width: 590px;
+    width: 500px;
     margin-bottom: 40px;
     font-size: 17px;
     line-height: 1.6;
