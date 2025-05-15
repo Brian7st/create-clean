@@ -239,8 +239,17 @@ footer{
 @media (max-width:920px){
 
     .container1 {
-        height: 75vh;
+        height: 70vh;
     }
+    .caja1 h2 {
+
+        margin-top: 200px;
+        font-size: 94px;
+    } 
+     .caja1 p {
+        margin-bottom: 124px;
+        font-size: 28px;
+     }
     .container2{
        height: 75vh; 
     }
@@ -258,6 +267,10 @@ footer{
     }
     .container3 {
         gap: 20px;
+        height: 70vh;
+    }
+    .container3 img {
+    max-width: 46%;
     }
     .caja3 h2 {
         font-size: 28px;
@@ -265,14 +278,171 @@ footer{
     .caja3 p {
         width: 365px;
     }
-     .container3 img {
-    max-width: 46%;
-    }
+     
     .container4{
         padding: 70px 40px;
     }
+        .caja4 h2 {
+        font-size: 24px;
+    }
+    .caja4 p {
+        width: 285px;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .caja4 button {
+        padding: 8px 4px;
+        font-size: 11px;
+    }
 
+}
 
+@media (max-width:768px){
+    .container1 {
+        height: 60vh
+    }
 
+    .caja1 h2 {
+        margin-top: 196px;
+        font-size: 3.5rem;
+    }
+    .caja1 p {
+        margin-bottom: 105px;
+        font-size: 1.1rem;
+    }
+    .container2 {
+        height: 47vh;
+    }
+    .caja2 h2{
+        font-size: 1rem;
+    }
+    .caja2 p{
+        width: 225px;
+        font-size: 0.6rem;
+        margin-bottom: 9px;
+    }
+    .button1{
+        padding: 7px 9px;
+        font-size: 0.8rem;
+    }
+    .container2 img {
+        max-width: 50%;
+    }
+    .container3 {
+        height: 40vh;
+        gap: 20px;
+    }
 
+    .caja3 h2{
+        font-size: 1rem;
+
+    }
+    .caja3 p {
+        width: 222px;
+        font-size: 0.6rem;
+        margin-bottom: 6px;
+    }
+    .container3 img {
+        max-width: 50%;
+    }
+
+    .container4 {
+        padding: 25px 0px;
+    }
+    .caja4 h2 {
+        font-size: 1rem;
+    }
+    .caja4 p {
+        font-size: 0.5rem;
+        width: 160px;
+    }
+    .caja4 button {
+        font-size: 0.5rem;
+    }
+    .footer-seccion ul li {
+    font-size: 0.6rem;
+    }
+    .footer-seccion h2 {
+    font-size:0.8rem ;
+    }
+    .footer-textoFinal {
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:480px){
+    .container1 {
+        height: 33vh;
+    }
+    .caja1 h2 {
+        margin-top: 253px;
+        font-size: 2.5rem;
+    }
+    .caja1 p {
+        font-size: 0.7rem;
+        margin-bottom: 40px;
+    }
+    .container2{
+        gap: 1px;
+        height: 35vh;
+    }
+    .container2 img {
+        max-width: 53%
+    }
+    .caja2 h2 {
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+    .caja2 p {
+        width: 177px;
+        font-size: 0.5rem;
+        margin-bottom: 9px;
+    }
+    .button1{
+        font-size: 0.5rem;
+    }
+    .container3 {
+        height: 25vh;
+        gap: 10px;
+    }
+    .container3 img {
+        max-width: 56%;
+    }
+    .caja3 h2 {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+        margin-top: 0px;
+    }
+    .caja3 p {
+        width: 155px;
+        font-size: 0.5rem;
+        margin-bottom: 6px;
+    }
+    .container4 {
+        height: 16vh;
+        background-position: center;
+    }
+    .caja4 h2 {
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+    }
+    .caja4 p {
+        font-size: 0.5rem;
+        width: 165px;
+    }
+    .caja4 {
+        margin-left: 12px;
+    }
+    .footer-seccion ul li {
+    font-size: 0.5rem;
+    }
+    .footer-seccion h2 {
+    font-size:0.5rem ;
+    }
+    .footer-textoFinal {
+        font-size: 0.4rem;
+        padding: 5PX;
+    }
+    footer {
+        padding: 14px 0px 0px 0px;
+    }
 }
