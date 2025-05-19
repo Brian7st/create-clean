@@ -326,7 +326,7 @@ footer{
         font-size: 0.8rem;
     }
     .container2 img {
-        max-width: 50%;
+        max-width: 40%;
     }
     .container3 {
         height: 40vh;
@@ -440,9 +440,13 @@ footer{
     }
     .footer-textoFinal {
         font-size: 0.4rem;
-        padding: 5PX;
+        padding: 3PX;
+    }
+    .footer-container {
+        height: 80px;
     }
     footer {
         padding: 14px 0px 0px 0px;
     }
+    
 }
