@@ -382,51 +382,60 @@ footer{
         margin-bottom: 40px;
     }
     .container2{
-        gap: 1px;
-        height: 35vh;
+        height: 60vh;
+        flex-direction: column;
+        align-items: center;
     }
     .container2 img {
         max-width: 53%
     }
     .caja2 h2 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-top: 0px;
     }
     .caja2 p {
-        width: 177px;
-        font-size: 0.5rem;
+        width: 301px;
+        font-size: 0.7rem;
         margin-bottom: 9px;
     }
-    .button1{
-        font-size: 0.5rem;
+    .button1 {
+        padding: 10px 19px;
     }
     .container3 {
-        height: 25vh;
-        gap: 10px;
+        height: 50vh;
+        flex-direction: column-reverse;
+        margin: 0px 0px 40px 0px;
     }
     .container3 img {
         max-width: 56%;
+        margin-left: 0;
+    }
+    .caja3{
+        margin-right: 0;
     }
     .caja3 h2 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-bottom: 8px;
         margin-top: 0px;
     }
     .caja3 p {
-        width: 155px;
-        font-size: 0.5rem;
+        width: 301px;
+        font-size: 0.7rem;
         margin-bottom: 6px;
     }
     .container4 {
-        height: 16vh;
+        height: 23vh;
         background-position: center;
     }
+    .caja4 button {
+        padding: 13px 8px;
+    } 
     .caja4 h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-bottom: 0px;
     }
     .caja4 p {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         width: 165px;
     }
     .caja4 {
@@ -444,6 +453,7 @@ footer{
     }
     .footer-container {
         height: 80px;
+        flex-direction: column;
     }
     footer {
         padding: 14px 0px 0px 0px;
